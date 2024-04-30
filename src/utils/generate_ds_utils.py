@@ -154,7 +154,7 @@ def prep_dataset_diagvib_envs(root_dir):
     path_train_envs = _find_env_yaml(root_dir, "train", pkl_files)
     path_val_envs = _find_env_yaml(root_dir, "val", pkl_files)
     path_test_envs = _find_env_yaml(root_dir, "test", pkl_files)
-
+    print("path_test_envs: ", path_test_envs)
     # Generate Images Train
     train_envs_ds = []
     _generate_image(path_train_envs)
