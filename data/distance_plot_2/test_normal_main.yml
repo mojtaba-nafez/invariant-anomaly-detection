@@ -40,7 +40,7 @@ modes:
       texture:
       - tiles
     tag: 2
-samples: 50
+samples: 500
 shape:
 - 1
 - 256

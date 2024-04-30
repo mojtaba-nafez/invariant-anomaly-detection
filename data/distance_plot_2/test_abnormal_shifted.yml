@@ -112,7 +112,7 @@ modes:
       - lava
       - carpet
     tag: ic
-samples: 50
+samples: 1000
 shape:
 - 1
 - 256
