@@ -9,7 +9,7 @@ modes:
 - ratio: 0.5
   specification:
     objs:
-    - category: train
+    - category: test
       hue:
       - red
       lightness:
@@ -19,14 +19,14 @@ modes:
       scale:
       - larger
       shape:
-      - 4
+      - 9
       texture:
       - wood
     tag: 1
 - ratio: 0.5
   specification:
     objs:
-    - category: train
+    - category: test
       hue:
       - green
       lightness:
@@ -36,7 +36,7 @@ modes:
       scale:
       - large
       shape:
-      - 4
+      - 9
       texture:
       - tiles
     tag: 2
@@ -45,4 +45,4 @@ shape:
 - 1
 - 256
 - 256
-task: texture
+task: hue
