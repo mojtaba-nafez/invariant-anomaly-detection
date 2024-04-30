@@ -132,6 +132,7 @@ class Dataset(object):
             task_labels[sample_cntr] = get_answer(semantic_image_spec, self.task)
 
             image_specs[sample_cntr] = image_spec
+            print(image_specs)
             image = self.painter.paint_images(image_spec, self.spec['shape'])
             images[sample_cntr] = image
 
