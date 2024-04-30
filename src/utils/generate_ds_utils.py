@@ -170,12 +170,11 @@ def prep_dataset_diagvib_envs(root_dir):
 
 def _generate_image(path_envs):
     for path_train_env in path_envs:
-        print('Generating images: ', path_train_env)
         spec_env = load_yaml(path_train_env)
         env_name = Path(path_train_env).stem
         path_pkl = f"{Path(path_train_env).parent}/{env_name}.pkl"
         # path_pkl = '{}.pkl'.format(re.split('.yml|.yaml', spec_train_env)[0])
-
+        print("spec_env)", spec_env)
         _ = CreateEnv(dataset_spec=spec_env,
                       seed=123,
                       cache_path=path_pkl)
