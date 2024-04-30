@@ -6,31 +6,115 @@ correlated factors:
 - scale
 - texture
 modes:
-- ratio: 1.0
+- ratio: 0.2
   specification:
     objs:
     - category: test
       hue:
       - green
-      - red
       lightness:
       - brighter
-      - bright
       position:
-      - center center
-      - upper center
+      - lower center
+      - center right
       scale:
       - large
       - larger 
       shape:
       - 9
       texture:
+      - carpet
       - tiles
-      - wood
+    tag: ic
+
+- ratio: 0.2
+  specification:
+    objs:
+    - category: test
+      hue:
+      - magenta
+      lightness:
+      - brighter
+      position:
+      - upper left
+      - center right
+      scale:
+      - large
+      - larger 
+      shape:
+      - 9
+      texture:
+      - lava
+      - carpet
+    tag: ic
+
+- ratio: 0.2
+  specification:
+    objs:
+    - category: test
+      hue:
+      - magenta
+      lightness:
+      - brighter
+      position:
+      - upper left
+      - center right
+      scale:
+      - large
+      - larger 
+      shape:
+      - 9
+      texture:
+      - bricks
+      - carpet
+    tag: ic
+
+- ratio: 0.2
+  specification:
+    objs:
+    - category: test
+      hue:
+      - yellow
+      - cyan
+      lightness:
+      - darker
+      position:
+      - lower left
+      - lower right
+      scale:
+      - smaller
+      - larger 
+      shape:
+      - 9
+      texture:
+      - bricks
+      - carpet
+    tag: ic
+
+- ratio: 0.2
+  specification:
+    objs:
+    - category: test
+      hue:
+      - blue
+      - cyan
+      lightness:
+      - darker
+      position:
+      - upper left
+      - center left
+      scale:
+      - small
+      - larger 
+      shape:
+      - 9
+      texture:
+      - lava
+      - carpet
     tag: ic
 samples: 50
 shape:
 - 1
 - 256
 - 256
-task: hue
+task: shape
