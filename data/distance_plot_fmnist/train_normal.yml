@@ -19,7 +19,7 @@ modes:
       scale:
       - larger
       shape:
-      - 8
+      - 0
       texture:
       - wood
     tag: 1
@@ -36,7 +36,7 @@ modes:
       scale:
       - large
       shape:
-      - 8
+      - 0
       texture:
       - tiles
     tag: 2
