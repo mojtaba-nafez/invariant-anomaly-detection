@@ -1,0 +1,120 @@
+correlated factors:
+- shape
+- hue
+- lightness
+- position
+- scale
+- texture
+modes:
+- ratio: 0.2
+  specification:
+    objs:
+    - category: test
+      hue:
+      - green
+      lightness:
+      - brighter
+      position:
+      - lower center
+      - center right
+      scale:
+      - large
+      - larger 
+      shape:
+      - 8
+      texture:
+      - carpet
+      - tiles
+    tag: ic
+
+- ratio: 0.2
+  specification:
+    objs:
+    - category: test
+      hue:
+      - magenta
+      lightness:
+      - brighter
+      position:
+      - upper left
+      - center right
+      scale:
+      - large
+      - larger 
+      shape:
+      - 8
+      texture:
+      - lava
+      - carpet
+    tag: ic
+
+- ratio: 0.2
+  specification:
+    objs:
+    - category: test
+      hue:
+      - magenta
+      lightness:
+      - brighter
+      position:
+      - upper left
+      - center right
+      scale:
+      - large
+      - larger 
+      shape:
+      - 8
+      texture:
+      - bricks
+      - carpet
+    tag: ic
+
+- ratio: 0.2
+  specification:
+    objs:
+    - category: test
+      hue:
+      - yellow
+      - cyan
+      lightness:
+      - darker
+      position:
+      - lower left
+      - lower right
+      scale:
+      - smaller
+      - larger 
+      shape:
+      - 8
+      texture:
+      - bricks
+      - carpet
+    tag: ic
+
+- ratio: 0.2
+  specification:
+    objs:
+    - category: test
+      hue:
+      - blue
+      - cyan
+      lightness:
+      - darker
+      position:
+      - upper left
+      - center left
+      scale:
+      - small
+      - larger 
+      shape:
+      - 8
+      texture:
+      - lava
+      - carpet
+    tag: ic
+samples: 1000
+shape:
+- 1
+- 256
+- 256
+task: shape
