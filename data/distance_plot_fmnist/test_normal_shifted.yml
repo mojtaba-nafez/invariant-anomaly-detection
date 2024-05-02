@@ -21,7 +21,7 @@ modes:
       - large
       - larger 
       shape:
-      - 0
+      - 4
       texture:
       - carpet
       - tiles
@@ -42,7 +42,7 @@ modes:
       - large
       - larger 
       shape:
-      - 0
+      - 4
       texture:
       - lava
       - carpet
@@ -63,7 +63,7 @@ modes:
       - large
       - larger 
       shape:
-      - 0
+      - 4
       texture:
       - bricks
       - carpet
@@ -85,7 +85,7 @@ modes:
       - smaller
       - larger 
       shape:
-      - 0
+      - 4
       texture:
       - bricks
       - carpet
@@ -107,7 +107,7 @@ modes:
       - small
       - larger 
       shape:
-      - 0
+      - 4
       texture:
       - lava
       - carpet
